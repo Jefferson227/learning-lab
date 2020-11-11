@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Geomanist';
+  src: local('Geomanist'), url(./fonts/Geomanist/geomanist-regular-webfont.ttf) format('truetype');
+}
+
+/*
+font-family: 'Inter', sans-serif;
+*/
