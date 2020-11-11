@@ -3,6 +3,8 @@ $background-color-2: rgba(254,195,123,1);
 $background-color-3: rgba(255,254,251,1);
 $color-black: #101010;
 $color-white: #fff;
+$color-gray-light-1: #f5f5f5;
+$color-gray-light-2: #c4c4c4;
 
 .App-container {
   font-family: 'Inter', sans-serif;
@@ -22,6 +24,7 @@ $color-white: #fff;
     text-align: center;
     background: $color-white;
     border-radius: 1rem;
+    padding-bottom: 2rem;
 
     &-title {
       font-family: 'Geomanist Bold', sans-serif;
@@ -32,6 +35,35 @@ $color-white: #fff;
     &-subtitle {
       font-weight: 500;
       font-size: 1rem;
+    }
+  }
+}
+
+.form-group {
+  margin:1.5rem 3rem;
+
+  &__input-text {
+    width: 100%;
+    height: 3rem;
+    border: 2px solid $color-gray-light-1;
+    border-radius: 0.7rem;
+    font-size: 0.9rem;
+    background: $color-gray-light-1;
+    padding-left: 1rem;
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+
+    &:focus {
+      outline: none;
+      background-color: $color-white;
+      box-shadow: 0 0.1rem 0.8rem rgba($color-black, 0.05);
+    }
+
+    &::placeholder {
+      font-style: italic;
+      color: $color-gray-light-2;
     }
   }
 }
