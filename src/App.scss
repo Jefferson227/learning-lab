@@ -1,10 +1,18 @@
+$background-color-1: rgba(255,68,135,1);
+$background-color-2: rgba(254,195,123,1);
+$background-color-3: rgba(255,254,251,1);
+$color-black: #101010;
+$color-white: #fff;
+
 .App-container {
+  font-family: 'Inter', sans-serif;
+  color: $color-black;
   min-height: 100vh;
   background:
-    radial-gradient(circle farthest-side at top left, rgba(255,68,135,1), transparent 100%),
-    radial-gradient(circle farthest-side at bottom left, rgba(254,195,123,1), transparent 100%),
-    radial-gradient(circle farthest-side at top right, rgba(255,254,251,1), transparent 100%),
-    radial-gradient(circle farthest-side at bottom right, rgba(254,195,123,1), transparent 100%);
+    radial-gradient(circle farthest-side at top left, $background-color-1, transparent 100%),
+    radial-gradient(circle farthest-side at bottom left, $background-color-2, transparent 100%),
+    radial-gradient(circle farthest-side at top right, $background-color-3, transparent 100%),
+    radial-gradient(circle farthest-side at bottom right, $background-color-2, transparent 100%);
 
   &__form {
     position: absolute;
@@ -12,13 +20,18 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    background: white;
+    background: $color-white;
     border-radius: 1rem;
 
     &-title {
       font-family: 'Geomanist Bold', sans-serif;
-      padding: 1rem 10rem;
-      font-size: 2rem;
+      padding: 2.5rem 10rem 0.5rem 10rem;
+      font-size: 2.4rem;
+    }
+
+    &-subtitle {
+      font-weight: 500;
+      font-size: 1rem;
     }
   }
 }
