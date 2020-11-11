@@ -14,6 +14,11 @@ function App() {
           <input type="text" className="form-group__input-text form-group__input-text--halfsize-left" placeholder="First name" />
           <input type="text" className="form-group__input-text form-group__input-text--halfsize-right" placeholder="Last name" />
           <input type="email" className="form-group__input-text form-group__input-text--fullsize" placeholder="Email" />
+          <button className="form-group__button form-group__button--fullsize">
+            <div>&nbsp;</div>
+            <div>Sign up</div>
+            <div>&rarr;</div>
+          </button>
         </form>
       </div>
     </section>
