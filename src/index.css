@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-size: 100%;
 }
@@ -16,11 +21,16 @@ code {
     monospace;
 }
 
-@font-face {
-  font-family: 'Geomanist';
-  src: local('Geomanist'), url(./fonts/Geomanist/geomanist-regular-webfont.ttf) format('truetype');
-}
-
 /*
 font-family: 'Inter', sans-serif;
 */
+
+@font-face {
+  font-family: "Geomanist Bold";
+  src: url("//db.onlinewebfonts.com/t/0771d7a6020c21f5082380939e415ad1.eot");
+  src: url("//db.onlinewebfonts.com/t/0771d7a6020c21f5082380939e415ad1.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/0771d7a6020c21f5082380939e415ad1.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/0771d7a6020c21f5082380939e415ad1.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/0771d7a6020c21f5082380939e415ad1.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/0771d7a6020c21f5082380939e415ad1.svg#Geomanist Bold") format("svg");
+}
