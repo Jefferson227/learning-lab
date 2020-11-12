@@ -10,7 +10,7 @@ function App() {
         <h5 className="App-container__form-subtitle">Already have an account? <a href="http://localhost:8080">Sign in</a></h5>
 
         <form className="form-group">
-          <input type="text" className="form-group__input-text form-group__input-text--fullsize" placeholder="Name" />
+          <input type="text" className="form-group__input-text form-group__input-text--fullsize" placeholder="How would you like to be called" />
           <input type="text" className="form-group__input-text form-group__input-text--halfsize-left" placeholder="First name" />
           <input type="text" className="form-group__input-text form-group__input-text--halfsize-right" placeholder="Last name" />
           <input type="email" className="form-group__input-text form-group__input-text--fullsize" placeholder="Email" />
