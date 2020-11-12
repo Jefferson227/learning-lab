@@ -23,8 +23,8 @@ function App() {
           <span className="input-group__checkbox-text">I agree to the <a href="http://localhost:8080">Terms & Conditions</a> and <a href="http://localhost:8080">Privacy Policy</a></span>
         </div>
 
-        <button>Create account</button>
-        <button>Sign up with Google</button>
+        <button className="button button--primary">Create account</button>
+        <button className="button button--secondary"><i class="fab fa-google"></i> <span className="button__icon-text">Sign up with Google</span></button>
       </form>
 
       <div>Already have an account? <a href="http://localhost:8080">Log in</a></div>

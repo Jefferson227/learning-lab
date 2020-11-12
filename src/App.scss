@@ -1,4 +1,7 @@
+$white-light-1: white;
+$white-light-2: #eee;
 $blue-light-1: #f0f5fe;
+$blue-dark-1: #0a58ed;
 
 .create-account-container {
   font-family: "Inter", sans-serif;
@@ -20,7 +23,7 @@ $blue-light-1: #f0f5fe;
     .input-group {
       &__input {
         width: 100%;
-        border: 0;
+        border: none;
         height: 4.5rem;
         border-radius: 5px;
         background: $blue-light-1;
@@ -42,7 +45,37 @@ $blue-light-1: #f0f5fe;
       }
 
       &--margined {
-        margin: 3rem 0;
+        margin: 3rem 0 !important;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+    }
+
+    .button {
+      width: 100%;
+      border: none;
+      height: 4.5rem;
+      border-radius: 5px;
+
+      &__icon-text {
+        margin-left: 1rem;
+      }
+
+      &--primary {
+        background: $blue-dark-1;
+        color: $white-light-2;
+      }
+
+      &--secondary {
+        background: $white-light-1;
+        color: $blue-dark-1;
+        border: 1px solid $blue-dark-1;
+      }
+
+      &:focus {
+        outline: none;
       }
 
       &:not(:last-child) {
