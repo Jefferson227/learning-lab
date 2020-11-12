@@ -27,7 +27,7 @@ function App() {
         <button className="button button--secondary"><i class="fab fa-google"></i> <span className="button__icon-text">Sign up with Google</span></button>
       </form>
 
-      <div>Already have an account? <a href="http://localhost:8080">Log in</a></div>
+      <div className="login-link">Already have an account? <a href="http://localhost:8080">Log in</a></div>
     </section>
   );
 }

@@ -5,7 +5,7 @@ $blue-dark-1: #0a58ed;
 
 .create-account-container {
   font-family: "Inter", sans-serif;
-  padding: 9rem 1rem 0rem 1rem;
+  padding: 9rem 3rem 0rem 3rem;
 
   &__title {
     width: 40%;
@@ -37,6 +37,7 @@ $blue-dark-1: #0a58ed;
       &__label {
         display: block;
         margin-bottom: 0.5rem;
+        font-weight: 500;
       }
 
       &__checkbox-text {
@@ -58,12 +59,14 @@ $blue-dark-1: #0a58ed;
       border: none;
       height: 4.5rem;
       border-radius: 5px;
+      cursor: pointer;
 
       &__icon-text {
         margin-left: 1rem;
       }
 
       &--primary {
+        font-weight: 700;
         background: $blue-dark-1;
         color: $white-light-2;
       }
@@ -82,5 +85,10 @@ $blue-dark-1: #0a58ed;
         margin-bottom: 1rem;
       }
     }
+  }
+
+  .login-link {
+    font-size: 1.2rem;
+    margin-top: 2rem;
   }
 }
