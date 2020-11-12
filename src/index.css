@@ -5,20 +5,20 @@
 }
 
 html {
-  font-size: 100%;
+  font-size: 62.5%;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -29,9 +29,14 @@ font-family: 'Inter', sans-serif;
 @font-face {
   font-family: "Geomanist Bold";
   src: url("//db.onlinewebfonts.com/t/0771d7a6020c21f5082380939e415ad1.eot");
-  src: url("//db.onlinewebfonts.com/t/0771d7a6020c21f5082380939e415ad1.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/0771d7a6020c21f5082380939e415ad1.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/0771d7a6020c21f5082380939e415ad1.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/0771d7a6020c21f5082380939e415ad1.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/0771d7a6020c21f5082380939e415ad1.svg#Geomanist Bold") format("svg");
+  src: url("//db.onlinewebfonts.com/t/0771d7a6020c21f5082380939e415ad1.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/0771d7a6020c21f5082380939e415ad1.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/0771d7a6020c21f5082380939e415ad1.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/0771d7a6020c21f5082380939e415ad1.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/0771d7a6020c21f5082380939e415ad1.svg#Geomanist Bold")
+      format("svg");
 }
