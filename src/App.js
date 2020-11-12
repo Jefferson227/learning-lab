@@ -18,8 +18,10 @@ function App() {
           <input id="password" className="input-group__input" type="password" />
         </div>
 
-        <input type="checkbox" />
-        <span>I agree to the <a href="http://localhost:8080">Terms & Conditions</a> and <a href="http://localhost:8080">Privacy Policy</a></span>
+        <div className="input-group input-group--margined">
+          <input type="checkbox" className="input-group__checkbox" />
+          <span className="input-group__checkbox-text">I agree to the <a href="http://localhost:8080">Terms & Conditions</a> and <a href="http://localhost:8080">Privacy Policy</a></span>
+        </div>
 
         <button>Create account</button>
         <button>Sign up with Google</button>
