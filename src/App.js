@@ -1,16 +1,22 @@
 import './App.scss';
 
+// https://dribbble.com/shots/14508023-Mobile-Sign-up
+
 function App() {
   return (
-    <section className="form-container">
-      <div className="form-container__title">Create Account</div>
+    <section className="create-account-container">
+      <div className="create-account-container__title"><h2>Create Account</h2></div>
 
-      <form>
-        <label for="email">Email</label>
-        <input id="email" type="email" />
+      <form className="form-container">
+        <div className="input-group">
+          <label for="email" className="input-group__label">Email</label>
+          <input id="email" className="input-group__input" type="email" />
+        </div>
 
-        <label for="password">Password</label>
-        <input id="password" type="password" />
+        <div className="input-group">
+          <label for="password" className="input-group__label">Password</label>
+          <input id="password" className="input-group__input" type="password" />
+        </div>
 
         <input type="checkbox" />
         <span>I agree to the <a href="http://localhost:8080">Terms & Conditions</a> and <a href="http://localhost:8080">Privacy Policy</a></span>
