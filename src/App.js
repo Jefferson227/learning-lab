@@ -1,4 +1,5 @@
 import './App.scss';
+import InputGroup from './components/InputGroup/InputGroup';
 
 // https://dribbble.com/shots/14508023-Mobile-Sign-up
 
@@ -8,15 +9,8 @@ function App() {
       <div className="create-account-container__title"><h2>Create Account</h2></div>
 
       <form className="form-container">
-        <div className="input-group">
-          <label for="email" className="input-group__label">Email</label>
-          <input id="email" className="input-group__input" type="email" />
-        </div>
-
-        <div className="input-group">
-          <label for="password" className="input-group__label">Password</label>
-          <input id="password" className="input-group__input" type="password" />
-        </div>
+        <InputGroup id="name" text="Name" type="text"></InputGroup>
+        <InputGroup id="password" text="Password" type="password"></InputGroup>
 
         <div className="input-group input-group--margined">
           <input type="checkbox" className="input-group__checkbox" />

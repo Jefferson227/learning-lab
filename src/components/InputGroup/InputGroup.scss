@@ -1,0 +1,35 @@
+@import "../variables.scss";
+
+.input-group {
+  &__input {
+    width: 100%;
+    border: none;
+    height: 4.5rem;
+    border-radius: 5px;
+    background: blue; //$blue-light-1;
+    padding-left: 1rem;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+
+  &__checkbox-text {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+  }
+
+  &--margined {
+    margin: 3rem 0 !important;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
